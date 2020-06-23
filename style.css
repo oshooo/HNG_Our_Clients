@@ -90,7 +90,7 @@ html,body{
     display: inline;
     padding: 10px 10px 10px 0;
 }
-.footer-link{
+.footer-link, .nav-link{
    
     text-decoration: none;
     color: white;
@@ -116,6 +116,14 @@ html,body{
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom:5px solid transparent;
+    }.rows{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+       
+    }nav a{
+        font-size: 2vmin;
+        margin: 0;
     }
 
 }
